@@ -1,0 +1,17 @@
+import java.lang.System;
+import java.util.Scanner;
+
+public class GitTest {
+    public static void main(String args[]){
+
+        Scanner sc = new Scanner(System.in);
+        
+        int hoge = sc.nextInt();
+        
+        System.out.println(hoge);
+
+        System.out.println(hoge);
+
+        sc.close();
+    }    
+}
